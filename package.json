@@ -46,7 +46,7 @@
     "@babel/plugin-transform-react-jsx": "7.0.0",
     "babel-core": "^7.0.0-0",
     "babel-jest": "23.4.2",
-    "babel-loader": "8.0.1",
+    "babel-loader": "8.0.2",
     "babel-plugin-auto-css-modules": "1.1.1",
     "babel-plugin-react-code-block": "0.3.0",
     "babel-preset-nodely": "0.3.0",
@@ -84,30 +84,5 @@
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-domlistener": "^1.0.5"
-  },
-  "jest": {
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "src/**/*.js"
-    ],
-    "coverageReporters": [
-      "json-summary",
-      "lcov"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 0,
-        "functions": 0,
-        "lines": 0,
-        "statements": 0
-      }
-    },
-    "setupFiles": [
-      "<rootDir>/jest-setup.js"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ],
-    "testRegex": "/__tests__/.*-test\\.js$"
   }
 }
